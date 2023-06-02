@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Site</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fcfcfc;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+　　.pre{
+     color: #4caf50;
+    }
+    .container {
+      text-align: center;
+    }
+
+    .screenshot {
+      max-width: 500px;
+      margin-bottom: 20px;
+    }
+
+    .download-button {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h1>secret chat -download</h1>
+        <img src="secret.jpg" alt="Chat Site Screenshot" class="screenshot">
+        <p>以下の手順に従ってフォルダをダウンロードしてください:</p>
+        <ol>
+          <li>以下のリンクをクリックして GitHub リポジトリに移動します。</li>
+          <h5>👇</h5>
+          <li>GitHub リポジトリでフォルダをダウンロードします。</li>
+          <h5>👇</h5>
+          <li>ダウンロードしたフォルダを解凍して利用します。</li>
+          <h5>👇</h5>
+          <li>cmd で以下のコマンドを入力します:</li>
+          <pre>cd chat-site</pre>
+          <li>その次に以下のコマンドを入力します:</li>
+          <pre>npm install</pre>
+          <li>最後に以下のコマンドを入力します:</li>
+          <pre>node index.js</pre>
+          <li>ブラウザで <a href="http://localhost:3000/">http://localhost:3000/</a> にアクセスします。</li>
+        </ol>
+        <a href="https://github.com/kouseyn/secret-chat" class="download-button">Download</a>
+      </div>      
+</body>
+</html>
